@@ -1,7 +1,7 @@
 {
   "name": "software-testing-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a project template for students participating in Software Testing course\r at Tampere University.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,6 +9,18 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "jest": "^29.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassijjk/sw-test-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lassijjk/sw-test-project/issues"
+  },
+  "homepage": "https://github.com/lassijjk/sw-test-project#readme",
+  "devDependencies": {
+    "coveralls": "^3.1.1"
+  }
 }
