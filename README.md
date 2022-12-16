@@ -1,9 +1,12 @@
-# Student template
+Software Testing project done as a part of the Software Testing course COMP.SE.200-2022-2023-1
 
-## Purpose of this repository
+Authors:
+- Lassi Kirvesmäki
+- Elmeri Peltonen
 
-This is a project template for students participating in Software Testing course
-at Tampere University.
+Tools used:
+- Babel, Jest and Coveralls
+- Github Actions for running the tools
 
 The repository only contains the source code that is under testing, `package.json` skeleton
 and LICENSE file.
