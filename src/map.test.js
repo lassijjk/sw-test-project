@@ -4,13 +4,16 @@ describe('map', () =>  {
     it('Should not fail with empty array ', () => {
         expect(map([], () => null)).toStrictEqual([]);
     });
+
     it('Should not fail with null value ', () => {
         expect(map(null, () => null)).toStrictEqual([]);
     });
+
     it('Should return correct results with correct input', () => {
         expect(map([true, false, true, false], (val) => !val)).toStrictEqual([false, true, false, true]);
         expect(map([14, 23, 6], (val) => 2*val)).toStrictEqual([28, 46, 12]);
     });
+
     it('Should pass correct values to map function', () => {
         const mapFunction = jest.fn((n, index, array) => n*index);
         expect(map([3, 12], mapFunction)).toStrictEqual([0, 12]);
