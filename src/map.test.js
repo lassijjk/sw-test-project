@@ -1,6 +1,6 @@
 import map from './map'
 
-describe('map', function() {
+describe('map', () =>  {
     it('Should not fail with empty array ', () => {
         expect(map([], () => null)).toStrictEqual([]);
     });
