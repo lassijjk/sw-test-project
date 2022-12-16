@@ -8,6 +8,8 @@ Tools used:
 - Babel, Jest and Coveralls
 - Github Actions for running the tools
 
+[![Coverage Status](https://coveralls.io/repos/github/lassijjk/sw-test-project/badge.svg?branch=main)](https://coveralls.io/github/lassijjk/sw-test-project?branch=main)
+
 The repository only contains the source code that is under testing, `package.json` skeleton
 and LICENSE file.
 
