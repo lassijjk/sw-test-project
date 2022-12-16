@@ -12,4 +12,10 @@ describe('clamp', () => {
     it('Testing the value within bounds with input values of (12, 1, 52), return value should be 12', () => {
         expect(clamp(12, 1, 52)).toStrictEqual((12));
     })
+    it('Testing the value within bounds with input values of (12), return value should be 0', () => {
+        expect(clamp(12 )).toStrictEqual((0));
+    })
+    it('Testing the value within bounds with no input values, return value should be NaN', () => {
+        expect(clamp()).toStrictEqual((NaN));
+    })
 })
